@@ -1,0 +1,10 @@
+#inside ~/.gitconfig.company
+[user]
+email = seth.addo@amalitech.com
+name = Seth Addo
+ 
+[github]
+user = "seth-amt"
+ 
+[core]
+sshCommand = "ssh -i ~/.ssh/seth-amt"

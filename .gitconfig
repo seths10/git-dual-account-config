@@ -1,0 +1,17 @@
+#inside ~/.gitconfig
+[includeIf "gitdir:C:/Users/SethAddo/Documents/PersonalProjects/"] # include for all .git projects under Personal/ 
+path = ~/.gitconfig.personal
+ 
+[includeIf "gitdir:C:/Users/SethAddo/Documents/Projects/"] # include for all .git projects under Company/
+path = ~/.gitconfig.company  
+ 
+[core]
+excludesfile = ~/.gitignore      # Ignore .gitconfig files valid everywhere 
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Seth Addo
+	email = seth.add@amalitech.com

@@ -1,0 +1,9 @@
+[user]
+email = addoseth35@gmail.com
+name = Seth Addo
+ 
+[github]
+user = "seths10"
+ 
+[core]
+sshCommand = "ssh -i ~/.ssh/seths10"
